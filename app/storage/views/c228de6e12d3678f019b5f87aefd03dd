@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Roes Wibowo">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php echo $title; ?></title>
+</head>
+<body>
+    <h1>User List:</h1>
+    
+    <?php if(!$users->isEmpty()): ?>
+    	<ul>
+    	<?php foreach($users as $user): ?>
+    		<li><?php echo $user->firstname.' '.$user->lastname; ?> with email: <?php echo $user->email; ?></li>
+    	<?php endforeach; ?>
+    	</ul>
+    <?php else: ?>
+    	<p>No record found.</p>
+    <?php endif; ?>
+</body>
+</html>
