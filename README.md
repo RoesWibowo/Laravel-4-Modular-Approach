@@ -36,7 +36,7 @@ We're create module service provider that extends `Illuminate\Support\ServicePro
 
 
 
-If you have some ideas, you can fork this repo. Don't forget to star this repo if useful.
+If you have some ideas, fork this repo. Don't forget to star this repo if useful.
 
 Thank you.
 Roes Wibowo, http://roes-wibowo.com
