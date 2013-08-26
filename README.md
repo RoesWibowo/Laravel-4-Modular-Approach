@@ -44,4 +44,5 @@ Roes Wibowo, http://roes-wibowo.com
 
 Reference:
 1. http://creolab.hr/2013/05/modules-in-laravel-4/
-2. http://laravel.com/docs/packages
+2. http://blog.khodam.org/laravel/resources-management-using-laravel-hmvc-pada-laravel-part-iii.php
+3. http://laravel.com/docs/packages
