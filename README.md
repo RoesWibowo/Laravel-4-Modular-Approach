@@ -35,7 +35,6 @@ We're create module service provider that extends `Illuminate\Support\ServicePro
 5. Unfortunately, we can't re-run migration using command: `migrate:refresh`, `migrate:reset`, `migrate:rollback`.
 
 
-
 If you have some ideas, fork this repo. Don't forget to star this repo if useful.
 
 Thank you.

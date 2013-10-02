@@ -1,0 +1,370 @@
+[2013-08-24 18:34:36] log.ERROR: exception 'InvalidArgumentException' with message 'Command "key:genereate" is not defined.
+
+Did you mean this?
+    key:generate' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:617
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('key:genereate')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2013-08-24 18:54:30] log.ERROR: exception 'RuntimeException' with message 'The "--modules:" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('modules:', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--modules:')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 18:54:53] log.ERROR: exception 'RuntimeException' with message 'The "--path:" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('path:', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path:')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 18:55:07] log.ERROR: exception 'RuntimeException' with message 'The "--path:app/modules/user" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('path:app/module...', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path:app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 18:56:39] log.ERROR: exception 'RuntimeException' with message 'The "--path:app/modules/user/database/migrations" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('path:app/module...', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path:app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 18:56:46] log.ERROR: exception 'RuntimeException' with message 'The "--path:" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('path:', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path:')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 18:58:41] log.ERROR: exception 'ErrorException' with message 'include(E:\webdev\www\laravel/app/database/migrations/2013_08_24_185239_User.php): failed to open stream: No such file or directory' in E:\webdev\www\laravel\vendor\composer\ClassLoader.php:185
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\composer\ClassLoader.php(185): Illuminate\Exception\Handler->handleError(2, 'include(E:\webd...', 'E:\webdev\www\l...', 185, Array)
+#1 E:\webdev\www\laravel\vendor\composer\ClassLoader.php(185): Composer\Autoload\ClassLoader::loadClass()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('User')
+#3 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(301): spl_autoload_call('User')
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(194): Illuminate\Database\Migrations\Migrator->resolve('2013_08_24_1852...')
+#5 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(174): Illuminate\Database\Migrations\Migrator->runDown(Object(stdClass), false)
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\ResetCommand.php(56): Illuminate\Database\Migrations\Migrator->rollback(false)
+#7 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\Migrations\ResetCommand->fire()
+#8 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(124): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\RefreshCommand.php(31): Illuminate\Console\Command->call('migrate:reset', Array)
+#12 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\Migrations\RefreshCommand->fire()
+#13 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RefreshCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2013-08-24 19:05:27] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RollbackCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:07:24] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class '' not found' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:301
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:08:02] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Monolog\Formatter\LineFormatter' not found' in E:\webdev\www\laravel\app\modules\User\database\migrations\migration_user.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:09:00] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class '' not found' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:301
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:10:39] log.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::up()' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:1592
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('up', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->up()
+#2 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(731): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('up', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->up()
+#5 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2545): call_user_func_array(Array, Array)
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): Illuminate\Database\Eloquent\Model->__call('up', Array)
+#7 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): User->up()
+#8 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_08_24_1852...', 1, false)
+#9 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#10 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('E:\webdev\www\l...', false)
+#11 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2013-08-24 19:12:04] log.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::up()' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:1592
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('up', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->up()
+#2 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(731): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('up', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->up()
+#5 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2545): call_user_func_array(Array, Array)
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): Illuminate\Database\Eloquent\Model->__call('up', Array)
+#7 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): User->up()
+#8 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_08_24_1852...', 1, false)
+#9 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#10 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('E:\webdev\www\l...', false)
+#11 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2013-08-24 19:13:24] log.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::up()' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:1592
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('up', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->up()
+#2 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(731): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('up', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->up()
+#5 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2545): call_user_func_array(Array, Array)
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): Illuminate\Database\Eloquent\Model->__call('up', Array)
+#7 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(137): User->up()
+#8 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_08_24_1852...', 1, false)
+#9 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#10 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('E:\webdev\www\l...', false)
+#11 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2013-08-24 19:14:57] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare class App\Modules\User\Database\Migrations\User' in E:\webdev\www\laravel\app\modules\User\database\migrations\migration_user.php:33
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:15:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Monolog\Formatter\LineFormatter' not found' in E:\webdev\www\laravel\app\modules\User\database\migrations\migration_user.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:16:30] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Monolog\Formatter\LineFormatter' not found' in E:\webdev\www\laravel\app\modules\User\database\migrations\2013_08_24_185239_User.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:16:53] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Monolog\Formatter\LineFormatter' not found' in E:\webdev\www\laravel\app\modules\User\database\migrations\2013_08_24_185239_User.php:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:22:20] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RollbackCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:22:30] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\ResetCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:22:37] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RefreshCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:28:22] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:29:19] log.ERROR: exception 'RuntimeException' with message 'The "--se" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(154): Symfony\Component\Console\Input\ArgvInput->addLongOption('se', NULL)
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--se')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:31:16] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:32:30] log.ERROR: exception 'RuntimeException' with message 'The "--path" option does not exist.' in E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:213
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('path', 'app/modules/use...')
+#1 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--path=app/modu...')
+#2 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2013-08-24 19:33:02] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Illuminate\Database\Migrations\Seeder' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:33:59] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Database\Seeds\DB' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:34:12] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Database\Seeds\Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:12
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:34:58] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Modules\Models\Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:35:18] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Modules\Models\Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:35:50] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use Users as Users because the name is already in use' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:35:58] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:12
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:36:04] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Modules\Models\Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:37:08] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\Modules\Models\Users' not found' in E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-08-24 19:37:58] log.ERROR: exception 'Illuminate\Database\Eloquent\MassAssignmentException' with message 'fisrtname' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:300
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(227): Illuminate\Database\Eloquent\Model->fill(Array)
+#1 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(349): Illuminate\Database\Eloquent\Model->__construct(Array)
+#2 E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php(17): Illuminate\Database\Eloquent\Model::create(Array)
+#3 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(53): App\Modules\User\Database\Seeds\UserSeeder->run()
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2013-08-24 19:38:08] log.ERROR: exception 'Illuminate\Database\Eloquent\MassAssignmentException' with message 'firstname' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:300
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(227): Illuminate\Database\Eloquent\Model->fill(Array)
+#1 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(349): Illuminate\Database\Eloquent\Model->__construct(Array)
+#2 E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php(17): Illuminate\Database\Eloquent\Model::create(Array)
+#3 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(53): App\Modules\User\Database\Seeds\UserSeeder->run()
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2013-08-24 19:39:03] log.ERROR: exception 'Illuminate\Database\Eloquent\MassAssignmentException' with message 'firstname' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:300
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(227): Illuminate\Database\Eloquent\Model->fill(Array)
+#1 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(349): Illuminate\Database\Eloquent\Model->__construct(Array)
+#2 E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php(19): Illuminate\Database\Eloquent\Model::create(Array)
+#3 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(53): App\Modules\User\Database\Seeds\UserSeeder->run()
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2013-08-24 19:39:32] log.ERROR: exception 'Illuminate\Database\Eloquent\MassAssignmentException' with message 'id' in E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:300
+Stack trace:
+#0 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(227): Illuminate\Database\Eloquent\Model->fill(Array)
+#1 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(349): Illuminate\Database\Eloquent\Model->__construct(Array)
+#2 E:\webdev\www\laravel\app\modules\User\database\seeds\UserSeeder.php(20): Illuminate\Database\Eloquent\Model::create(Array)
+#3 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\SeedCommand.php(53): App\Modules\User\Database\Seeds\UserSeeder->run()
+#4 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#5 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\webdev\www\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\webdev\www\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\webdev\www\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#11 {main} [] []
