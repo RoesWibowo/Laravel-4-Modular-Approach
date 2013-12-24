@@ -20,7 +20,7 @@ We're create module service provider that extends `Illuminate\Support\ServicePro
 2. Run:
 `composer install`
 3. Migrate from module migration:
-`php artisan migrate --path="app/modules/user/database/migrations"`
+`php artisan migrate --path="app/modules/User/database/migrations"`
 4. Seed from module seeder:
 `php artisan db:seed --class="App\Modules\User\Database\Seeds\UserSeeder"`
 5. Access using: http://yourlaravelapp.com/user or http://yourlaravelapp.com/user/index.
