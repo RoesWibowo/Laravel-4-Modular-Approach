@@ -9,14 +9,16 @@ abstract class ModulesServiceProvider extends ServiceProvider {
     private function getModule($args)
     {
         $module = (isset($args[0]) and is_string($args[0])) ? $args[0] : null;
- 
+       
         return $module;
+
     }
 
     public function boot()
     {
         if ($module = $this->getModule(func_get_args()))
         {
+
             $this->module_path = app_path().'/modules/'.$module;
             $this->package('app/'.$module, $module, $this->module_path);
         }
@@ -26,9 +28,10 @@ abstract class ModulesServiceProvider extends ServiceProvider {
     {
         if ($module = $this->getModule(func_get_args()))
         {
-            $this->module_path = app_path().'/modules/'.$module;
+            $this->module_path = app_path().'/modules/'.ucfirst($module);
 
             $routes = $this->module_path.'/routes.php';
+            
             if(file_exists($routes)) {
                 require $routes;
             }
@@ -39,5 +42,6 @@ abstract class ModulesServiceProvider extends ServiceProvider {
             }
         }
     }
+
  
 }

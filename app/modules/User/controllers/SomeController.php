@@ -8,10 +8,9 @@ class SomeController extends BaseController {
 
 	public function getIndex()
 	{
-		$sample['title'] 	= Config::get('user::sample.appname');
+		$sample['title'] 	= Config::get('User::sample.appname');
 		$sample['users']	= Users::all();
-	
-		return View::make('user::userlist',$sample);
+		return View::make('User::userlist',$sample);
 	}
 
 }
