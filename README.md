@@ -25,6 +25,8 @@ We're create module service provider that extends `Illuminate\Support\ServicePro
 `php artisan db:seed --class="App\Modules\User\Database\Seeds\UserSeeder"`
 5. Access using: http://yourlaravelapp.com/user or http://yourlaravelapp.com/user/index.
 
+New module
+- The first letter of the module folder should be large
 
 ### FYI:
 1. Install using composer.json with `"app/modules"` included in classmap.
