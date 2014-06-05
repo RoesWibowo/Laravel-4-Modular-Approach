@@ -1,6 +1,6 @@
 ## Laravel 4 Modular (HMVC) Approach
 
-This is customized laravel 4 in HMVC form. This modules coverage:
+This is customized Laravel 4.2 in HMVC pattern. This modules coverage:
 - config,
 - controller,
 - database: migration and seeding,
