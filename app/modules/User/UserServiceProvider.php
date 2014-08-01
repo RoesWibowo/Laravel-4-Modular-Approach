@@ -6,12 +6,12 @@ class UserServiceProvider extends ModulesServiceProvider {
  
     public function register()
     {
-        parent::register('user');
+        parent::register('User');
     }
  
     public function boot()
     {
-        parent::boot('user');
+        parent::boot('User');
     }
  
 }
