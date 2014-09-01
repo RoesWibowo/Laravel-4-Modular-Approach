@@ -10,7 +10,7 @@ class UserController extends Controller {
 		$sample['title'] 	= Config::get('user::myconfig.appname');
 		$sample['users']	= Users::all();
 	
-		return View::make('user::userlist',$sample);
+		return View::make('User::userlist',$sample);
 	}
 
 }
