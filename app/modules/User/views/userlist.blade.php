@@ -8,7 +8,7 @@
     <title>{{$title}}</title>
 </head>
 <body>
-    <h1>{{$title}} - {{Lang::get('user::content.page')}}:</h1>
+    <h1>{{$title}} - {{Lang::get('User::content.page')}}:</h1>
     
     @if(!$users->isEmpty())
     	<ul>

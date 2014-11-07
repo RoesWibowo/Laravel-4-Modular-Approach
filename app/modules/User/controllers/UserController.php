@@ -7,7 +7,7 @@ class UserController extends Controller {
 
 	public function getIndex()
 	{
-		$sample['title'] 	= Config::get('user::myconfig.appname');
+		$sample['title'] 	= Config::get('User::myconfig.appname');
 		$sample['users']	= Users::all();
 	
 		return View::make('User::userlist',$sample);
