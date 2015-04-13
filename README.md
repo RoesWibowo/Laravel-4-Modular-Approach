@@ -28,7 +28,7 @@ We're create module service provider that extends `Illuminate\Support\ServicePro
 
 ### FYI:
 1. Install using composer.json with `"app/modules"` included in classmap.
-2. Once you create modules, register namespace module service provider in: `"app/module/app.php"`.
+2. Once you create modules, register namespace module service provider in: `"app/config/app.php"`.
 3. We can create new migration file with command:
 `php artisan migrate:make ChangeUser --path="app/modules/user/database/migrations"`
 4. Unfortunately, we can't re-run migration using command: `migrate:refresh`, `migrate:reset`, `migrate:rollback`.
